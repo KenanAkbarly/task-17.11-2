@@ -1,0 +1,71 @@
+p.text{
+    background: linear-gradient(45deg,lightblue,#aa54e4);
+    color: #524958;
+}
+
+span h2:hover{
+    height: 30px;
+    transition: 0.5s;
+    color: red;
+    transform: translate(40%);
+}
+ ul > li{
+   list-style-type: none;
+   color: blue;
+ }
+
+ ul + span{
+    color: red;
+ }
+ [class~=game]{
+   
+    border: 1px solid green;
+ }
+ [class$="ball"]{
+   color: white;
+    background-color: red;
+ }
+
+ .button{
+   width: 5%;
+   height: 20px;
+   border: 1px solid;
+ }
+ .btnlink{
+   text-decoration: none;
+   
+ }
+ .button:active{
+   background-color: green;
+ }
+
+input:checked + label{
+   font-size: 2rem;
+   color: green;
+ }
+
+ input:disabled{
+   background-color: yellow;
+ }
+
+.choosefc > :first-child{
+   font-size: 2rem;
+   color: brown;
+}
+
+img:hover{
+   transition: 0.7s;
+   transform: translate(100%);
+   border-radius: 50%;
+}
+
+.chooselc >:last-child{
+   font-size: 2rem;
+   color: green;
+}
+
+.visitedlink a:visited{
+color: darkmagenta;
+  
+   
+}
